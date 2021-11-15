@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* /////////////////////Header//////////////////////////// */
+.container-header{   
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-header img{
+    width: 60%;
+    height: 80%;
+}
+/* /////////////////Navigation bar//////////////////////// */
+
+/* ////////////////////Body//////////////////////// */
+body
+{
+    background-color: rgb(27, 25, 25);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    
+}
+
+
+/* /////////////////FOOTER//////////////////////////////// */
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
