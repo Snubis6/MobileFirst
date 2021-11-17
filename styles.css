@@ -12,11 +12,56 @@
 }
 
 .container-header img{
-    width: 60%;
-    height: 80%;
+    width: 100vw;
+    height: 90%;
 }
 /* /////////////////Navigation bar//////////////////////// */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hell {
+    height: 6vw;
+    align-items: center;
+    justify-content: center;
 
+
+}
+#motto{
+  color: white;
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 5vw;
+  font-size: 3vw;
+  text-decoration:underline solid white ;
+}
+#aboutus{
+  
+    padding-left: 2vw;
+    padding-right: 2vw;
+    
+}
+#think{
+    text-align: center;
+    color: white;
+    padding-bottom: 2vw;
+    font-size: 2vw;
+}
+#hello{
+    color: white;
+    background-color: none;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+#right {
+    float: right;
+}
+.menu{
+    padding: 3vw;
+    font-size: 1.5vw;
+    color: white;
+}
 /* ////////////////////Body//////////////////////// */
 body
 {
@@ -36,5 +81,39 @@ body
     text-align: center;
     color: white;
     background-color: black;
+    height: 50vh;
 }
 
+
+
+
+
+/* .testingshit{
+    padding-left: 0ch;
+}
+aijaefergjiksjgwerhuajsdfhwe4zrudasjh
+so
+should we ahve another shot?
+
+hey Maria
+
+.crazysexy{
+    loool you so gud at dancing
+    thaaank u:)))))))))
+    :>>>>>>>>>>>>>>>>>>>>
+    :33333333
+    whats up
+    do landing
+     no
+     please?
+     i want to dance
+
+     ...b.
+     ut then we can do it
+     sure?
+
+
+
+
+     
+}
