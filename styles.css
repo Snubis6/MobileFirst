@@ -17,13 +17,23 @@ header img{
 nav{
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
 
 }
-nav a{
+nav .navb{
     padding: 3vw;
     font-size: 1.5vw;
     color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px;
+}
+nav .navb:hover{
+    background-color: gray;
+    color: red;
+    border-radius: 10%;
+    
 }
 nav img {
     height: 6vw;
@@ -32,7 +42,7 @@ nav img {
 }
 
 .selected{
-    
+
 }
 /* /////////////////Articles & About Us//////////// */
 #motto h1{
