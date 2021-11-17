@@ -89,6 +89,12 @@ nav img {
 #more2{
     display: none;
 }
+#imgleft{
+    float:right;
+}
+#imgright{
+    float:left;
+}
 /* //////////////////Google maps/////////////////// */
 
 /* ////////////////////Body//////////////////////// */
