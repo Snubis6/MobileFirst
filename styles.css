@@ -122,4 +122,10 @@ footer{
     margin-top: 3vw;
 }
 
+.pic {
+    border-radius: 100%;
+    height: 8vw;
+    float: left;
+}
+
 
