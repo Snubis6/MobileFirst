@@ -31,7 +31,7 @@ nav .navb{
 }
 nav .navb:hover{
     background-color: gray;
-    color: red;
+    color: rgb(56, 53, 53);
     border-radius: 10%;
     
 }
@@ -41,9 +41,7 @@ nav img {
     justify-content: center;
 }
 
-.selected{
 
-}
 /* /////////////////Articles & About Us//////////// */
 #motto h1{
   color: white;
