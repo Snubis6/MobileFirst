@@ -139,8 +139,12 @@ footer{
 footer iframe{
     float:right;
 }
-#mapscontainer {
-    
+#mapscontainer h2{
+    float: right;
+    /* transform:rotate(-90deg); */
+    margin-top: 70px;
+    font-size: 17px;
+    justify-content: center;
 }
 #place h2{
     float:left;
