@@ -135,26 +135,34 @@ footer{
     height: 20vh;
     margin-top: 20px;
     padding-top: 20px;
+    width: 100%;
 }
 footer iframe{
     float:right;
+    width: 30%;
 }
 #mapscontainer h2{
     float: right;
-    /* transform:rotate(-90deg); */
+    transform:rotate(-90deg);
     margin-top: 70px;
     font-size: 17px;
     justify-content: center;
+    width: 10%;
+    white-space: pre;
 }
 #place h2{
     float:left;
     display: flex;
     margin-right: 20px;
+    white-space: pre;
+    width: 10%;
 }
 #time{
-    width: 20vw;
+    width: 20%;
     float: left;
     display: flex;
+    justify-content: center;
+    white-space: pre;
 }
 #leftsideday{    
     padding-right: 4vw;
@@ -278,4 +286,6 @@ footer iframe{
 
 
 /* NEWS PAGE CSS PART*/
+
+
 
