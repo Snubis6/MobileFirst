@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: ;
 }
 /* /////////////////////Header//////////////////////////// */
 header{   
@@ -101,6 +100,25 @@ nav img {
     width: 13vw;
 }
 /* //////////////////Google maps/////////////////// */
+/* ///////////////////Gallery/////////////////////// */
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+    
 
 /* ////////////////////Body//////////////////////// */
 body
