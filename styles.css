@@ -288,5 +288,7 @@ footer iframe{
 
 /* NEWS PAGE CSS PART*/
 
-
+.newspic img {
+    height: 10vw;
+}
 
