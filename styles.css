@@ -290,13 +290,20 @@ footer iframe{
 
 .newspic img {
     height: 10vw;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 .newstext h1{
-color: white;
+color: rgb(0, 0, 0);
+text-align: center;
 }
 .newstext h2{
-    color: white;
+    color: rgb(0, 0, 0);
     }
 
-    
+.holder {
+    background-color: rgba(255, 255, 255, 0.666);
+    width: 25vw;
+    height: 30vw;
+}
