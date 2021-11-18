@@ -146,7 +146,7 @@ footer{
     width: 90%;
  }
 
-.row:after {
+.raw:after {
     content: "";
     display: table;
     clear: both;
@@ -164,7 +164,7 @@ footer{
     padding-right: 15vw;
 }
 
-.row {
+.raw {
     padding-bottom: 5vw;
     padding-top: 5vw;
     border-bottom: solid 0.2vw rgb(49, 49, 49);
@@ -173,6 +173,19 @@ footer{
 
 .playbtn{
     margin-left: 50vw;
+}
+
+/*OUR STAFF PAGE CSS PART END*/
+
+
+/* MENU PAGE CSS PART*/
+
+#body {
+    background-image: url("images/menu.jpg");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
 }
 
 
