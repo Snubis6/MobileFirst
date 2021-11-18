@@ -102,23 +102,22 @@ nav img {
 /* //////////////////Google maps/////////////////// */
 /* ///////////////////Gallery/////////////////////// */
 .row {
-    display: -ms-flexbox; /* IE 10 */
+    
     display: flex;
-    -ms-flex-wrap: wrap; /* IE 10 */
     flex-wrap: wrap;
     padding: 0 4px;
   }
-  .column {
-    -ms-flex: 50%; /* IE 10 */
-    flex: 50%;
+.column {
+    
+    flex: 25%;
     padding: 0 4px;
   }
   
-  .column img {
+.column img {
     margin-top: 8px;
     vertical-align: middle;
   }
-    
+
 
 /* ////////////////////Body//////////////////////// */
 body
@@ -129,15 +128,30 @@ body
 }
 /* /////////////////FOOTER//////////////////////////////// */
 footer{
-    display:flex;
-    justify-content: center;
-    text-align: center;
+    font-family: 'Agency FB', arial;
     color: white;
     background-color: black;
     height: 20vh;
-    align-items: center;
-    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;
 }
+footer iframe{
+    float:right;
+}
+#place h2{
+    float:left;
+    display: flex;
+    margin-right: 20px;
+}
+#time{
+    width: 20vw;
+    float: left;
+    display: flex;
+}
+#leftsideday{    
+    padding-right: 4vw;
+}
+    
 
 
 
