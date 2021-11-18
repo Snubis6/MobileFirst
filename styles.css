@@ -139,6 +139,9 @@ footer{
 footer iframe{
     float:right;
 }
+#mapscontainer {
+    
+}
 #place h2{
     float:left;
     display: flex;
@@ -265,4 +268,6 @@ footer iframe{
     padding-left: 2vw;
     padding-top: 1vw;
 }
+
+
 
