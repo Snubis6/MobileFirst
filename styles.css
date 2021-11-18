@@ -67,16 +67,18 @@ nav img {
     padding-right: 3vw;
 }
 .articlecolumns{
-    float: left;
+   
     padding:10px;
+    color: bisque;
+    margin-top: 150px;
 }
 .rightside {
     margin-top: 25px;
-    width: 50%;
+    width: 100%;
 }
 .leftside{
     margin-top: 25px;
-    width: 50%;
+    width: 100%;
 }
 .articlecolumns:after {
     content: "";
@@ -90,12 +92,33 @@ nav img {
     display: none;
 }
 #imgleft{
-    float:right;
+    float:left;
+    width: 13vw;
 }
 #imgright{
-    float:left;
+    float:right;
+    width: 13vw;
 }
 /* //////////////////Google maps/////////////////// */
+/* ///////////////////Gallery/////////////////////// */
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+    
 
 /* ////////////////////Body//////////////////////// */
 body
