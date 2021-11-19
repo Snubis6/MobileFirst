@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Agency FB', arial;
+}
+
+/* //////////////////////MOBILE VERSION OF MAIN PAGE///////////////////// */
+
+#logo{
+    display: none;
+}
+article{
+    display: none;
+}
+iframe{
+    display: none;
+}
+footer{
+    display: none;
+}
+
+
+/* /////////////////////Header//////////////////////////// */
+header{   
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+header img{
+    width: 70%;
+    height: 90%;
+}
+
+.pcnav{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+
+  /* /////////////////Navigation bar//////////////////////// */
+.mobilenav{
+    display: flex;
+    background-color: rgb(27, 25, 25);
+    text-align: center;
+}
+.mobilenav section{
+    flex: 33%;
+}
+
+
+
+/* //////////////////////////Articles & About Us/////////////////////////// */
+#motto h1{
+  color: white;
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 5vw;
+  font-size: 3vw;
+  text-decoration:underline solid white ;
+}
+.aboutus {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.aboutus h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 2vw;
+    font-size: 2vw;
+}
+.aboutus h2{
+    color: white;
+    background-color: none;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.articlecolumns{
+   
+    padding:10px;
+    color: bisque;
+    margin-top: 150px;
+}
+.rightside {
+    margin-top: 25px;
+    width: 100%;
+}
+.leftside{
+    margin-top: 25px;
+    width: 100%;
+}
+.articlecolumns:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#more{
+    display: none;
+}
+#more2{
+    display: none;
+}
+#imgleft{
+    float:left;
+    width: 13vw;
+}
+#imgright{
+    float:right;
+    width: 13vw;
+}
+
+
+
+/* ////////////////////Body//////////////////////// */
+/* body
+{
+    background-color: rgb(27, 25, 25);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+} */
+/* /////////////////FOOTER//////////////////////////////// */
+footer{
+    
+    color: white;
+    background-color: black;
+    height: 20vh;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+footer iframe{
+    float:right;
+    width: 30%;
+}
+#mapscontainer h2{
+    float: right;
+    transform:rotate(-90deg);
+    margin-top: 70px;
+    font-size: 17px;
+    justify-content: center;
+    width: 10%;
+    white-space: pre;
+}
+#place h2{
+    float:left;
+    display: flex;
+    margin-right: 20px;
+    white-space: pre;
+    width: 10%;
+}
+#time{
+    width: 20%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+}
+#leftsideday{    
+    padding-right: 4vw;
+}
+/* ////////////////////////End Of Main Page//////////////////// */    
