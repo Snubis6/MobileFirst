@@ -39,7 +39,9 @@ header img{
 @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
+
     }
+
 }
 
 
@@ -49,20 +51,24 @@ header img{
     flex-wrap: wrap;
     background-color: rgb(27, 25, 25);
     text-align: center;
-    text-decoration: none;
-    
+   
 }
-.mobilenav section h2{
+
+.mobilenav .navb{
     text-decoration: none;
+    padding: 3vw;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px;
 }
 
 .mobilenav section{
    width: 33%;
-   text-decoration: none;
+  
 }
 .mobilenav section img{
     width: 33%;
-    text-decoration: none;
 }
 
 
@@ -130,12 +136,12 @@ header img{
 
 
 /* ////////////////////Body//////////////////////// */
-/* body
+body
 {
     background-color: rgb(27, 25, 25);
     display: grid;
     grid-template-rows: auto 1fr auto;
-} */
+}
 /* /////////////////FOOTER//////////////////////////////// */
 footer{
     
