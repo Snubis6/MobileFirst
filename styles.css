@@ -83,6 +83,7 @@ header{
     background-color: none;
     padding-left: 3vw;
     padding-right: 3vw;
+    text-align: justify;
 }
 .articlecolumns{
    
@@ -91,12 +92,12 @@ header{
     margin-top: 150px;
 }
 .rightside {
-    margin-top: 25px;
-    width: 100%;
+   margin-top: 5vw;
+   margin-bottom: 5vw;
 }
 .leftside{
     margin-top: 25px;
-    width: 100%;
+    
 }
 .articlecolumns:after {
     content: "";
@@ -113,10 +114,48 @@ header{
     float:left;
     width: 13vw;
 }
+
 #imgright{
     float:right;
     width: 13vw;
 }
+
+#myBtn {
+    text-decoration: underline solid white 0.5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+#myBtn2 {
+    text-decoration: underline solid white 0.5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.articlecolumns h1 {
+    font-size: 3vw;
+    text-decoration: underline solid white 0.2px;
+}
+.articlecolumns img {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.articlecolumns h2 {
+    width: 87vw;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+   
+}
+
+
+
 
 
 
