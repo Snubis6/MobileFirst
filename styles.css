@@ -216,6 +216,9 @@ body
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    padding-top: 0.00001vw;
+    border-top:  rgb(49, 49, 49) 0.2vw dotted;
+    margin-top: 3.9vw;
 }
 .column {
     
