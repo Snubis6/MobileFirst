@@ -446,7 +446,7 @@ text-decoration: none;
   }
 
 #fu{
-    font-size: 20vw;
+    font-size: 18vw;
     animation-name: FadeIn;
     
     animation-fill-mode: backwards;
@@ -462,4 +462,31 @@ text-decoration: none;
     to {opacity: 1;}
 }
 
+
+.skull {
+    height: 10vw;
+    
+}
+
+.panda {
+    float: right;
+    margin-right: 2vw;
+    margin-top: 2vw;
+}
+
+.snake {
+    float: right;
+    margin-right: 2vw;
+    margin-top: 2vw;
+}
+
+.giraffe {
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+.penquin {
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
 
