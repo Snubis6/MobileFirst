@@ -296,9 +296,6 @@ footer iframe{
     margin-top: 6px;    
     text-align: center;
 }
-.newspic img{
-    text-align: center;
-}
 
 .newstext h1{
 color: rgb(0, 0, 0);
@@ -310,7 +307,9 @@ text-align: center;
 
 .holder {
     background-color: rgba(255, 255, 255, 0.666);
-    border:solid;
+    border:solid;    
+    flex: 25%;
+    padding: 0 4px;
     
     
 }
@@ -320,11 +319,4 @@ text-align: center;
     flex-wrap: wrap;
     padding: 0 4px;
 }
-
-.holder {
-    
-    flex: 25%;
-    padding: 0 4px;
-  }
-  
 
