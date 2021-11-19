@@ -107,17 +107,17 @@ nav img {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-  }
+}
 .column {
     
     flex: 25%;
     padding: 0 4px;
-  }
+}
   
 .column img {
     margin-top: 8px;
     vertical-align: middle;
-  }
+}
 
 
 /* ////////////////////Body//////////////////////// */
@@ -290,8 +290,14 @@ footer iframe{
 
 .newspic img {
     height: 10vw;
-    padding-left: 30%;
-    padding-right: 30%;
+    
+}
+.newspic{
+    margin-top: 6px;    
+    text-align: center;
+}
+.newspic img{
+    text-align: center;
 }
 
 .newstext h1{
@@ -304,6 +310,21 @@ text-align: center;
 
 .holder {
     background-color: rgba(255, 255, 255, 0.666);
-    width: 25vw;
-    height: 30vw;
+    border:solid;
+    
+    
 }
+#newsgrid{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.holder {
+    
+    flex: 25%;
+    padding: 0 4px;
+  }
+  
+
