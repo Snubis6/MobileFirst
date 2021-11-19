@@ -167,6 +167,9 @@ body
     grid-template-rows: auto 1fr auto;
 }
 /* /////////////////FOOTER//////////////////////////////// */
+.mobilefooter{
+    display: none;
+}
 .pcfooter{
     
     color: white;
