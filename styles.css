@@ -241,12 +241,8 @@ body
 
 /*OUR STAFF PAGE CSS PART*/
 
-#staff {
-    color: white;
-    text-align: center;
-    font-size: 2.7vw;
+.wake {
     margin-top: 5vw;
-    margin-bottom: 7.5vw;
 }
 
 .left img {
