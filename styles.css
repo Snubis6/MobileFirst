@@ -141,6 +141,7 @@ body
 .pcfooter iframe{
     float:right;
     width: 30%;
+    margin-right: 2vw;
 }
 #mapscontainer h2{
     float: right;
@@ -389,3 +390,4 @@ color: white;
 padding-top: 2vw;
 text-decoration: none;
 }
+
