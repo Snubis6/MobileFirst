@@ -356,6 +356,7 @@ text-align: center;
 .games img {
     height: 20vw;
     border-radius: 15%;
+    box-shadow: rgb(137, 111, 138) 0px 0px 30px  ;
 }
 
 #gamesgrid {
