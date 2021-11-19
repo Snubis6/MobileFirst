@@ -349,3 +349,32 @@ text-align: center;
 
 /* NEWS PAGE CSS PART END */
 
+/* NEWS PAGE CSS PART END*/
+
+/* MINIGAMES PAGE CSS PART*/
+
+.games img {
+    height: 20vw;
+    border-radius: 15%;
+}
+
+#gamesgrid {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.games { 
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.games h2 {
+    text-align: center;
+    color: white;
+    padding-top: 2vw;
+}
