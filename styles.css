@@ -6,25 +6,36 @@
 }
 
 /* /////////////////////Main Page Start////////////////////////// */
+/*/////////////////////////Mobile Version of Main Page////////////////////////*/
+@media only screen and (min-width: 1024px){
+    
+}
+
+
+
+
 /* /////////////////////Header//////////////////////////// */
 header{   
     display: flex;    
     align-items: center;
     justify-content: center;
 }
-header img{
+#moblogo{
+    display: none;
+}
+#logo{
     width: 100%;
     height: 90%;
 }
 /* /////////////////Navigation bar//////////////////////// */
-nav{
+.pcnav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(27, 25, 25);
 
 }
-nav .navb{
+.pcnav .navb{
     padding: 3vw;
     font-size: 1.5vw;
     color: white;
@@ -32,16 +43,19 @@ nav .navb{
     cursor: pointer;
     padding: 8px;
 }
-nav .navb:hover{
+.pcnav .navb:hover{
     background-color: gray;
     color: rgb(56, 53, 53);
     border-radius: 10%;
     
 }
-nav img {
+.pcnav img {
     height: 6vw;
     align-items: center;
     justify-content: center;
+}
+.mobilenav{
+    display: none;
 }
 
 
@@ -332,4 +346,6 @@ text-align: center;
     flex-wrap: wrap;
     padding: 0 4px;
 }
+
+/* NEWS PAGE CSS PART END */
 
