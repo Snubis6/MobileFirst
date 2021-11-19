@@ -46,12 +46,25 @@ header img{
   /* /////////////////Navigation bar//////////////////////// */
 .mobilenav{
     display: flex;
+    flex-wrap: wrap;
     background-color: rgb(27, 25, 25);
     text-align: center;
+    text-decoration: none;
+    
 }
+.mobilenav section h2{
+    text-decoration: none;
+}
+
 .mobilenav section{
-    flex: 33%;
+   width: 33%;
+   text-decoration: none;
 }
+.mobilenav section img{
+    width: 33%;
+    text-decoration: none;
+}
+
 
 
 
