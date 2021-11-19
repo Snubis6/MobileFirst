@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: 'Agency FB', arial;
 }
+
+/* /////////////////////Main Page Start////////////////////////// */
 /* /////////////////////Header//////////////////////////// */
 header{   
     display: flex;    
@@ -102,23 +104,6 @@ nav img {
     width: 13vw;
 }
 
-/* ///////////////////Gallery Page/////////////////////// */
-.row {
-    
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-.column {
-    
-    flex: 25%;
-    padding: 0 4px;
-}
-  
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
 
 
 /* ////////////////////Body//////////////////////// */
@@ -169,7 +154,26 @@ footer iframe{
 #leftsideday{    
     padding-right: 4vw;
 }
+/* ////////////////////////End Of Main Page//////////////////// */    
+
+/* ///////////////////Gallery Page/////////////////////// */
+.row {
     
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column {
+    
+    flex: 25%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
 
 /*////////////////////////////Music Page///////////////////////////////*/
 
