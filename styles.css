@@ -381,6 +381,10 @@ text-align: center;
     
 }
 
-#we {
+.we {
+text-decoration: none;
+text-align: center;
+color: white;
+padding-top: 2vw;
 text-decoration: none;
 }
