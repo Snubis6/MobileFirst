@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Agency FB', arial;
 }
 /* /////////////////////Header//////////////////////////// */
 header{   
@@ -42,7 +43,7 @@ nav img {
 }
 
 
-/* /////////////////Articles & About Us//////////// */
+/* //////////////////////////Articles & About Us/////////////////////////// */
 #motto h1{
   color: white;
   text-align: center;
@@ -100,8 +101,8 @@ nav img {
     float:right;
     width: 13vw;
 }
-/* //////////////////Google maps/////////////////// */
-/* ///////////////////Gallery/////////////////////// */
+
+/* ///////////////////Gallery Page/////////////////////// */
 .row {
     
     display: flex;
@@ -129,7 +130,7 @@ body
 }
 /* /////////////////FOOTER//////////////////////////////// */
 footer{
-    font-family: 'Agency FB', arial;
+    
     color: white;
     background-color: black;
     height: 20vh;
@@ -170,6 +171,7 @@ footer iframe{
 }
     
 
+/*////////////////////////////Music Page///////////////////////////////*/
 
 
 
@@ -235,7 +237,7 @@ footer iframe{
 /* MENU PAGE CSS PART*/
 
 
-#body {
+#menubody {
     background-image: url("images/menu.jpg");
     background-repeat: no-repeat;
     max-width: 100%;
