@@ -13,12 +13,15 @@
 article{
     display: none;
 }
-iframe{
+.pcfooter{
     display: none;
 }
-footer{
+/* iframe{
     display: none;
-}
+} */
+/* footer{
+    display: none;
+} */
 
 
 /* /////////////////////Header//////////////////////////// */
@@ -35,17 +38,28 @@ header img{
 .pcnav{
     display: none;
 }
-
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-
+@media only screen and (min-width: 550px) {
+    
+    .mobilenav img{
+        width: 33%;
+    }
+    .mobilenav section{
+        width: 33%;
     }
 
 }
+@media only screen and (max-width: 549px){
+    .mobilenav img{
+        width: 50%;
+    }
+    .mobilenav section{
+        width: 75%;
+    }
+}
 
 
-  /* /////////////////Navigation bar//////////////////////// */
+
+/* /////////////////Navigation bar//////////////////////// */
 .mobilenav{
     display: flex;
     flex-wrap: wrap;
@@ -63,13 +77,8 @@ header img{
     padding: 8px;
 }
 
-.mobilenav section{
-   width: 33%;
-  
-}
-.mobilenav section img{
-    width: 33%;
-}
+
+
 
 
 
