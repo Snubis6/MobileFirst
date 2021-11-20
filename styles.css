@@ -87,12 +87,13 @@ header{
 }
 .articlecolumns{
     padding:10px;
-    color: bisque;
     margin-top: 150px;    
 }
 .articlecolumns a{
     text-decoration: underline;
-    color: bisque;
+    color: rgb(255, 255, 255);
+    margin-top: 150px;
+    
 }
 
 .rightside {
@@ -153,7 +154,7 @@ header{
 }
 
 .articlecolumns h2 {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.898);
     word-wrap: break-word;
     text-align: justify;
     width: 75vw;
@@ -207,6 +208,7 @@ body
     margin-right: 20px;
     white-space: pre;
     width: 10%;
+    padding-left: 2vw;
 }
 #time{
     width: 20%;
