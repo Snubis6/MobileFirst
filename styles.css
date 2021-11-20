@@ -68,8 +68,7 @@ header{
   padding-bottom: 5vw;
   font-size: 6vw;
   font-family: 'Road Rage', cursive;
-  
-
+  text-shadow: rgb(130, 188, 238) 0 0 2vw;
 }
 .aboutus {
     padding-left: 2vw;
