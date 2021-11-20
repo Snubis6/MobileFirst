@@ -86,15 +86,21 @@ header{
     text-align: justify;
 }
 .articlecolumns{
+    color: white;
     padding:10px;
-    color: rgb(255, 255, 255);
+    margin-top: 150px;    
+}
+.articlecolumns a{
+    text-decoration: underline;
+    color: rgb(255, 255, 255, 0.898);
     margin-top: 150px;
     
 }
+
 .rightside {
    margin-top: 5vw;
    margin-bottom: 5vw;
-   margin-left: 10vw;
+   margin-left: 7.5vw;
 }
 .leftside{
     margin-top: 25px;
