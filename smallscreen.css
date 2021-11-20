@@ -19,10 +19,10 @@ article{
 iframe{
     display: none;
 }
-/* footer{
-    display: none;
-} */
 .articlecolumns img{
+    display: none;
+}
+.pcnav{
     display: none;
 }
 
@@ -34,12 +34,9 @@ header{
 }
 header img{
     width: 70%;
-    height: 90%;
+    height: 65%;
 }
 
-.pcnav{
-    display: none;
-}
 @media only screen and (min-width: 550px) {
 
     .mobilenav img{
@@ -48,6 +45,7 @@ header img{
     .mobilenav section{
         width: 33%;
     }
+    
 
 }
 @media only screen and (max-width: 549px){
@@ -58,6 +56,7 @@ header img{
     .mobilenav section{
         width: 48vw;
     }
+    
 }
 
 
@@ -71,6 +70,15 @@ header img{
 
 }
 
+#minigmobilenav img{
+    
+    width: 50px;
+    height: auto;
+}
+#minigmobilenav{
+    text-align: center;
+    margin-top: 1vh;
+}
 .mobilenav .navb{
     text-decoration: none;
     padding: 3vw;
@@ -84,9 +92,6 @@ header{
     min-height:80px;
 }
   
-footer{ 
-    min-height:180px; 
-}
 
 
 
@@ -99,7 +104,7 @@ footer{
   text-align: center;
   padding-top: 2vw;
   padding-bottom: 5vw;
-  font-size: 90%;
+  font-size: 110%;
   text-decoration:underline solid white;
 }
 
@@ -107,122 +112,60 @@ footer{
     height: 15%;
 }
 
-.aboutus {
-    padding-left: 2vw;
-    padding-right: 2vw;
-}
 
-.aboutus h1{
-    text-align: center;
-    color: white;
-    padding-bottom: 2vw;
-    font-size: 2vw;
-}
-
-.aboutus h2{
-    color: white;
-    background-color: none;
-    padding-left: 3vw;
-    padding-right: 3vw;
-}
-
-.articlecolumns{
-
-    padding:10px;
-    color: bisque;
-    margin-top: 150px;
-}
-
-.rightside {
-    margin-top: 25px;
-    width: 100%;
-}
-
-.leftside{
-    margin-top: 25px;
-    width: 100%;
-}
-
-.articlecolumns:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#more{
-    display: none;
-}
-
-#more2{
-    display: none;
-}
-
-#imgleft{
-    float:left;
-    width: 13vw;
-}
-#imgright{
-    float:right;
-    width: 13vw;
-}
 
 
 
 /* ////////////////////Body//////////////////////// */
 body
 {     
-    min-height: 100vh; 
+    min-height: 60vh; 
     margin: 0;    
     background-color: rgb(27, 25, 25);
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
-/* /////////////////FOOTER//////////////////////////////// */
-footer{
 
-    color: white;
-    background-color: black;
-    margin-top: 20px;
-    padding-top: 20px;
+/* ////////////////////////End Of Main Page//////////////////// */
+
+/* MINIGAMES PAGE CSS PART*/
+
+.games{
+    margin-top: 2vh;
     width: 100%;
-    height: 100%;
-
-}
-.mobilefooter {
-    font-size: 50%;
-    align-content: center;
+    text-align: center;
 }
 
-footer iframe{
-    float:right;
-    width: 30%;
+.games img {
+    height: 20vw;
+    border-radius: 15%;
+    box-shadow: rgb(137, 111, 138) 0px 0px 30px  ;
 }
-#mapscontainer h2{
-    float: right;
-    transform:rotate(-90deg);
-    margin-top: 70px;
-    font-size: 17px;
-    justify-content: center;
-    width: 10%;
-    white-space: pre;
-}
-#place h2{
-    float:left;
+
+#gamesgrid {
     display: flex;
-    margin-right: 20px;
-    white-space: pre;
-    width: 10%;
+    flex-wrap: wrap;
+    font-family: 'Agency FB', Arial;
+   
 }
-#time{
-    width: 20%;
-    float: left;
-    display: flex;
-    justify-content: center;
-    white-space: pre;
+
+.games h2 {
+    text-align: center;
+    color: white;
+    padding-top: 2vw;
+    text-decoration: none;
+    
 }
-#leftsideday{
-    padding-right: 4vw;
+
+.we {
+text-align: center;
+color: white;
+padding-top: 2vw;
+text-decoration: none;
 }
+
+
+/* MINIGAMES PAGE CSS PART END*/
 /* ////////////////////////End Of Main Page//////////////////// */
 
 
