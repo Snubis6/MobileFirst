@@ -17,11 +17,8 @@ function myFunction2() {
 
 // Get the elements with class="column"
 var elements = document.getElementsByClassName("column");
-
 // Declare a loop variable
 var i;
-
-
 // Four images side by side
 function four() {
   for (i = 0; i < elements.length; i++) {
