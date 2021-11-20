@@ -172,6 +172,10 @@ text-decoration: none;
 
 
 /* ////////////////////////GALLERY//////////////////// */
+.row{
+    display: none;
+}
+
 .mySlides {
     display: none;
   }
