@@ -73,6 +73,7 @@ header{
     padding-left: 2vw;
     padding-right: 2vw;
     
+    
 }
 .aboutus h1{
     text-align: center;
@@ -87,6 +88,7 @@ header{
     padding-left: 3vw;
     padding-right: 3vw;
     text-align: justify;
+    font-family: 'Genos', sans-serif;
 }
 .articlecolumns{
     color: white;
@@ -201,6 +203,8 @@ body
 .mobilefooter{
     display: none;
 }
+
+
 .pcfooter{
     
     color: white;
@@ -244,6 +248,11 @@ body
 #leftsideday{    
     padding-right: 4vw;
 }
+
+.pcnav{
+    font-family: 'Agency FB', Arial;
+}
+
 /* ////////////////////////End Of Main Page//////////////////// */    
 
 /* ///////////////////Gallery Page/////////////////////// */
