@@ -229,6 +229,17 @@ footer iframe{
 
 
 /* ////////////////////////GALLERY//////////////////// */
+
+
+
+.row {
+    display: none;
+}
+
+.column {
+    display: none;
+}
+
 .mySlides {
     display: none;
   }

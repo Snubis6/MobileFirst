@@ -277,6 +277,10 @@ body
     vertical-align: middle;
 }
 
+.slideshow-container {
+    display: none;
+}
+
 
 /*////////////////////////////Music Page///////////////////////////////*/
 
