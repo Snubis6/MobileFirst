@@ -322,6 +322,8 @@ body
     padding-bottom: 2vw;
     padding-top: 5vw;
     border-bottom: solid 0.2vw rgb(49, 49, 49);
+    font-family: 'Genos', sans-serif;
+    
 }     
 
 .raw:after {
@@ -458,6 +460,7 @@ text-align: center;
 #gamesgrid {
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Agency FB', Arial;
    
 }
 
