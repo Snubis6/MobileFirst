@@ -16,17 +16,19 @@ article{
 .pcfooter{
     display: none;
 }
-/* iframe{
+iframe{
     display: none;
-} */
+}
 /* footer{
     display: none;
 } */
-
+.articlecolumns img{
+    display: none;
+}
 
 /* /////////////////////Header//////////////////////////// */
-header{   
-    display: flex;    
+header{
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -39,7 +41,7 @@ header img{
     display: none;
 }
 @media only screen and (min-width: 550px) {
-    
+
     .mobilenav img{
         width: 33%;
     }
@@ -50,10 +52,11 @@ header img{
 }
 @media only screen and (max-width: 549px){
     .mobilenav img{
-        width: 50%;
+        width: 18vw;
+        height: 10vh;
     }
     .mobilenav section{
-        width: 75%;
+        width: 48vw;
     }
 }
 
@@ -65,7 +68,7 @@ header img{
     flex-wrap: wrap;
     background-color: rgb(27, 25, 25);
     text-align: center;
-   
+
 }
 
 .mobilenav .navb{
@@ -77,6 +80,13 @@ header img{
     padding: 8px;
 }
 
+header{ 
+    min-height:80px;
+}
+  
+footer{ 
+    min-height:180px; 
+}
 
 
 
@@ -89,50 +99,64 @@ header img{
   text-align: center;
   padding-top: 2vw;
   padding-bottom: 5vw;
-  font-size: 3vw;
-  text-decoration:underline solid white ;
+  font-size: 90%;
+  text-decoration:underline solid white;
 }
+
+#motto{
+    height: 15%;
+}
+
 .aboutus {
     padding-left: 2vw;
     padding-right: 2vw;
 }
+
 .aboutus h1{
     text-align: center;
     color: white;
     padding-bottom: 2vw;
     font-size: 2vw;
 }
+
 .aboutus h2{
     color: white;
     background-color: none;
     padding-left: 3vw;
     padding-right: 3vw;
 }
+
 .articlecolumns{
-   
+
     padding:10px;
     color: bisque;
     margin-top: 150px;
 }
+
 .rightside {
     margin-top: 25px;
     width: 100%;
 }
+
 .leftside{
     margin-top: 25px;
     width: 100%;
 }
+
 .articlecolumns:after {
     content: "";
     display: table;
     clear: both;
 }
+
 #more{
     display: none;
 }
+
 #more2{
     display: none;
 }
+
 #imgleft{
     float:left;
     width: 13vw;
@@ -146,22 +170,29 @@ header img{
 
 /* ////////////////////Body//////////////////////// */
 body
-{
+{     
+    min-height: 100vh; 
+    margin: 0;    
     background-color: rgb(27, 25, 25);
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
 /* /////////////////FOOTER//////////////////////////////// */
 footer{
-    
+
     color: white;
     background-color: black;
-    height: 20vh;
     margin-top: 20px;
     padding-top: 20px;
     width: 100%;
     height: 100%;
+
 }
+.mobilefooter {
+    font-size: 50%;
+    align-content: center;
+}
+
 footer iframe{
     float:right;
     width: 30%;
@@ -189,7 +220,7 @@ footer iframe{
     justify-content: center;
     white-space: pre;
 }
-#leftsideday{    
+#leftsideday{
     padding-right: 4vw;
 }
-/* ////////////////////////End Of Main Page//////////////////// */    
+/* ////////////////////////End Of Main Page//////////////////// */
