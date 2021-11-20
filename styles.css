@@ -89,14 +89,16 @@ header{
     padding:10px;
     color: bisque;
     margin-top: 150px;
+    
 }
 .rightside {
    margin-top: 5vw;
    margin-bottom: 5vw;
+   margin-left: 10vw;
 }
 .leftside{
     margin-top: 25px;
-    
+    margin-left: 13vw;
 }
 .articlecolumns:after {
     content: "";
@@ -147,9 +149,11 @@ header{
 }
 
 .articlecolumns h2 {
-    width: 87vw;
-    text-align: justify;
     color: rgb(255, 255, 255);
+    word-wrap: break-word;
+    text-align: justify;
+    width: 75vw;
+
    
 }
 
