@@ -244,6 +244,10 @@ body
 
 /*OUR STAFF PAGE CSS PART*/
 
+#ourstaff {
+    box-sizing: border-box;
+}
+
 .wake {
     margin-top: 5vw;
 }
@@ -251,19 +255,31 @@ body
 .left img {
     border-radius: 100%;
     height: 8vw;
-    float: left;
     border: solid rgb(125, 123, 123) 0.1vw;
 }
 
+.col {
+    float: left;
+}
+
 .left {
-   float: left;
    width: 10%;
 }
 
+.center {
+    width: 60%;
+}
+
 .right {
-    float: right;
-    width: 90%;
- }
+    width: 30%;
+    padding-left: 7vw;
+}
+
+.raw {
+    padding-bottom: 2vw;
+    padding-top: 5vw;
+    border-bottom: solid 0.2vw rgb(49, 49, 49);
+}     
 
 .raw:after {
     content: "";
@@ -271,28 +287,17 @@ body
     clear: both;
   }
 
-  .right h1 {
-      color: white;
-      padding-bottom: 1vw;
+  .center h1 {
+    color: white;
+    padding-bottom: 1vw;
   }
 
-  .right h2 {
+  .center h2 {
     color: white;
     font-size: 1.4vw;
     text-align: justify;
-    padding-right: 15vw;
 }
 
-.raw {
-    padding-bottom: 5vw;
-    padding-top: 5vw;
-    border-bottom: solid 0.2vw rgb(49, 49, 49);
-   
-}
-
-.playbtn{
-    margin-left: 50vw;
-}
 
 /*OUR STAFF PAGE CSS PART END*/
 
