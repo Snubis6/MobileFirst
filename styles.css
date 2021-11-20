@@ -2,7 +2,8 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Genos', sans-serif;
+    
+    
 }
 
 /* /////////////////////Main Page Start////////////////////////// */
@@ -71,12 +72,14 @@ header{
 .aboutus {
     padding-left: 2vw;
     padding-right: 2vw;
+    
 }
 .aboutus h1{
     text-align: center;
     color: white;
     padding-bottom: 2vw;
     font-size: 2vw;
+    font-family: 'Agency FB', Arial;
 }
 .aboutus h2{
     color: white;
@@ -88,23 +91,43 @@ header{
 .articlecolumns{
     color: white;
     padding:10px;
-    margin-top: 150px;    
+    margin-top: 150px;        
 }
+.articlecolumns .leftside h1{
+    font-family: 'Agency FB', Arial;
+}
+.articlecolumns .rightside h1{
+    font-family: 'Agency FB', Arial;
+}
+
 .articlecolumns a{
     text-decoration: underline;
     color: rgb(255, 255, 255, 0.898);
     margin-top: 150px;
-    
 }
+
+#myBtn2{
+    font-family: 'Genos', sans-serif;
+    font:bold;    
+}
+
 
 .rightside {
    margin-top: 5vw;
    margin-bottom: 5vw;
-   margin-left: 7.5vw;
+   margin-left: 7.5vw;   
 }
+.rightside h2{
+    font-family: 'Genos', sans-serif;
+}
+
 .leftside{
     margin-top: 25px;
     margin-left: 13vw;
+    
+}
+.leftside h2{
+    font-family: 'Genos', sans-serif;
 }
 .articlecolumns:after {
     content: "";
@@ -149,6 +172,7 @@ header{
     font-size: 3vw;
     text-decoration: underline solid white 0.2px;
 }
+
 .articlecolumns img {
     padding-left: 2vw;
     padding-right: 2vw;
@@ -158,9 +182,7 @@ header{
     color: rgba(255, 255, 255, 0.898);
     word-wrap: break-word;
     text-align: justify;
-    width: 75vw;
-
-   
+    width: 75vw;   
 }
 
 
@@ -188,6 +210,7 @@ body
     padding-top: 20px;
     width: 100%;
     height: 100%;
+    font-family: 'Agency FB', Arial;
 }
 .pcfooter iframe{
     float:right;
