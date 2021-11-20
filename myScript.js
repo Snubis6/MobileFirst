@@ -27,7 +27,6 @@ function four() {
   }
 }
 
-//On refresh go to the top of screen, it just save the postion as top of the view port
-window.onbeforeunload = function () {
-  window.scrollTo(0,0);
-};
+
+
+
