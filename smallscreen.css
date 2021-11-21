@@ -279,7 +279,14 @@ body
 
 
 /* ////////////////////////GALLERY//////////////////// */
-.row{
+
+
+
+.row {
+    display: none;
+}
+
+.column {
     display: none;
 }
 
