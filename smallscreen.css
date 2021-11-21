@@ -346,3 +346,16 @@ body
     background-color: rgba(0,0,0,0.8);
   }
   
+  /* ////////////////////////GALLERY END//////////////////// */
+
+
+  /* ////////////////////////OURSTAFF PAGE//////////////////// */
+
+  .raw {
+      display: none;
+  }
+  .col {
+    display: none;
+}
+
+
