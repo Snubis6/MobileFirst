@@ -286,9 +286,10 @@ body
 }
 
 /*/////////////////Menu Page///////////////*/
-#menubody {
-    background-image: url("images/menu.jpg");
-    background-repeat: no-repeat;
+
+
+.bigcontainer{
+    display: none;
 }
 
 /* ////////////////////////GALLERY//////////////////// */
