@@ -205,7 +205,9 @@ body
     display: none;
 }
 
-
+.pcfooter h2{
+    font-family: 'Agency FB', Arial;
+}
 .pcfooter{
     
     color: white;
@@ -215,7 +217,7 @@ body
     padding-top: 20px;
     width: 100%;
     height: 100%;
-    font-family: 'Agency FB', Arial;
+    
 }
 .pcfooter iframe{
     float:right;
@@ -238,6 +240,7 @@ body
     white-space: pre;
     width: 10%;
     padding-left: 2vw;
+    
 }
 #time{
     width: 20%;
@@ -245,9 +248,11 @@ body
     display: flex;
     justify-content: center;
     white-space: pre;
+    
 }
 #leftsideday{    
     padding-right: 4vw;
+    
 }
 
 .pcnav{
@@ -358,6 +363,7 @@ body
     max-width: 100%;
     height: auto;
     background-size: cover;
+    font-family: 'Agency FB', Arial;
 }
 .dot{
     border-bottom: dotted 2px rgb(255, 255, 255);
@@ -399,7 +405,9 @@ body
     padding-top: 1vw;
 }
 
-
+#menu{
+    display: none;
+}
 
 
 /* MENU PAGE CSS PART END*/
