@@ -387,4 +387,37 @@ body
 
 /* ////////////////////////OURSTAFF PAGE END//////////////////// */
 
+/* ////////////////////////NEWS PAGE//////////////////// */
+.newspic img {
+    height: 10vw;
+    
+}
+
+.newspic{
+    margin-top: 2vw;    
+    text-align: center;
+}
+
+.newstext h1{
+color: rgb(0, 0, 0);
+text-align: center;
+}
+.newstext h2{
+    color: rgb(0, 0, 0);
+    }
+
+.holder {
+    background-color: rgba(255, 255, 255, 0.666);
+    border:solid;    
+    margin: 5vw;
+    padding: 0 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 25%;
+    justify-content: space-around;
+    margin-top: 3vw;
+}
+
+/* ////////////////////////NEWS PAGE END//////////////////// */
+
 
