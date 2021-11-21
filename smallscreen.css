@@ -319,9 +319,20 @@ body
 
   .slideshow-container {
     position: relative;
-    margin: auto;
+    margin-top: 25%;
+    margin-bottom: 5%;
     max-width: 1025px;
+   
+    
   }
+
+.mySlides{
+    margin: auto;
+    width: 90%;
+    border: 3px solid #467c07;
+    padding: 10px;
+    
+}
 
   .prev, .next {
     cursor: pointer;
