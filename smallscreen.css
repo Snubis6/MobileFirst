@@ -108,8 +108,9 @@ header img{
   text-align: center;
   padding-top: 2vw;
   padding-bottom: 5vw;
-  font-size: 110%;
+  font-size: 180%;
   text-decoration:underline solid white;
+  font-family: 'Road Rage', 'cursive';
 }
 
 #motto{
@@ -268,7 +269,7 @@ body
 
 #fuyeah{
     height: 10fr;
-    margin-top: 55%;
+    margin-top: 25%;
 }
 
 /* FUCKYEAH PAGE CSS PART END*/
@@ -352,7 +353,7 @@ body
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: -10%;
     width: auto;
     margin-top: 5vw;
     margin-bottom:20vw ;
