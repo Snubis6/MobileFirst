@@ -5,7 +5,7 @@
     font-family: 'Agency FB', arial;
 }
 
-/* //////////////////////MOBILE VERSION OF MAIN PAGE///////////////////// */
+/* /////////////////////////////MOBILE VERSION OF MAIN PAGE///////////////////////////////// */
 
 #logo{
     display: none;
@@ -29,7 +29,7 @@ article{
     display: none;
 }
 
-/* /////////////////////Header//////////////////////////// */
+/* ///////////////////////////////////////////Header/////////////////////////////////////////// */
 header{
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@ header img{
 
 
 
-/* /////////////////Navigation bar//////////////////////// */
+/* ////////////////////////////////Navigation bar////////////////////////////////////*/
 .mobilenav{
     display: flex;
     flex-wrap: wrap;
@@ -91,17 +91,6 @@ header img{
     cursor: pointer;
     padding: 8px;
 }
-
-
-
-
-  
-
-
-
-
-
-
 /* //////////////////////////Articles & About Us/////////////////////////// */
 #motto h1{
   color: white;
@@ -117,11 +106,7 @@ header img{
     height: 15%;
 }
 
-
-
-
-
-/* ////////////////////Body//////////////////////// */
+/* ////////////////////Body///////////////////////////////////////////////// */
 body
 {     
     min-height: 60vh; 
@@ -131,7 +116,7 @@ body
     grid-template-rows: auto 1fr auto;
 }
 
-/* ////////////////////////End Of Main Page//////////////////// */
+/* ////////////////////////End Of Main Page/////////////////////////////////// */
 
 /* MINIGAMES PAGE CSS PART*/
 
@@ -170,9 +155,9 @@ body
 }
 
 
-/* MINIGAMES PAGE CSS PART END*/
+/*/////////////////////////// MINIGAMES PAGE CSS PART END//////////////////////////////*/
 
-/* FUCKYEAH PAGE CSS PART*/
+/*//////////////////////////////// FUCKYEAH PAGE CSS PART////////////////////////*/
 
 #myDIV {
     -webkit-animation: mymove 0.2s infinite;
