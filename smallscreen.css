@@ -26,15 +26,17 @@ iframe{
     display: none;
 }
 
+
 /* /////////////////////Header//////////////////////////// */
 header{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 header img{
     width: 70%;
-    height: 65%;
+    height: 95%;
 }
 
 @media only screen and (min-width: 550px) {
@@ -88,9 +90,9 @@ header img{
     padding: 8px;
 }
 
-header{ 
-    min-height:80px;
-}
+
+
+
   
 
 
@@ -158,14 +160,119 @@ body
 }
 
 .we {
-text-align: center;
-color: white;
-padding-top: 2vw;
-text-decoration: none;
+    text-align: center;
+    color: white;
+    padding-top: 2vw;
+    text-decoration: none;
 }
 
 
 /* MINIGAMES PAGE CSS PART END*/
+
+/* FUCKYEAH PAGE CSS PART*/
+
+#myDIV {
+    -webkit-animation: mymove 0.2s infinite;
+    animation: mymove 1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    animation-delay: 0;
+  }
+  
+  @keyframes mymove {
+    0% {
+        background-color: #fb0000
+    }
+    10% {
+        background-color: #fb6400
+    }
+
+    20% {
+        background-color: #fbe200
+    }
+    30% {
+        background-color: #a7fb00
+    }
+
+    40% {
+        background-color: #0dff00
+    }
+    50% {
+        background-color: #00fb64
+    }
+
+    60% {
+        background-color: rgb(2, 240, 216)
+    }
+
+    70% {
+        background-color: #0055ff
+    }
+    80% {
+        background-color: #000dff
+    }
+    90% {
+        background-color: #7b00ff
+    }
+    100% {
+        background-color: #d900ff
+    }
+  }
+
+#fu{
+    font-size: 18vw;
+    animation-name: FadeIn;
+    
+    animation-fill-mode: backwards;
+    text-align: center;
+    animation: FadeIn 1s infinite;
+    animation-delay: 0;
+    }
+
+
+
+@keyframes FadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+.skull {
+    height: 10vw;
+    
+}
+
+.panda {
+    float: right;
+    margin-right: 2vw;
+    margin-top: 2vw;
+}
+
+.snake {
+    float: right;
+    margin-right: 2vw;
+    margin-top: 2vw;
+}
+
+.giraffe {
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+.penquin {
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+#fuyeah{
+    height: 10fr;
+    margin-top: 55%;
+}
+
+/* FUCKYEAH PAGE CSS PART END*/
+
+
+
 /* ////////////////////////End Of Main Page//////////////////// */
 
 
