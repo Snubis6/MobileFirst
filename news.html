@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 1025px)" href="smallscreen.css">
+    <link href="https://allfont.net/allfont.css?fonts=agency-fb" rel="stylesheet" type="text/css" />
     <link href="https://allfont.net/allfont.css?fonts=agency-fb" rel="stylesheet" type="text/css" />
     <script src="myScript.js"></script>
     <title>News</title>
@@ -26,8 +27,36 @@
 
 
 
-<section id="newsgrid">
-<div class="holder">
+<div class="newsgrid slideshow-container">
+<div class="holder mySlides fade">
+    <section class="newspic">
+        <img src="images/coronav.jpg" alt="">
+    </section>
+
+    <section class="newstext ">
+        <h1>
+           CORONA 
+        </h1>
+        <h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    </section>
+</div>
+
+<div class="holder mySlides fade">
+    <section class="newspic">
+        <img src="images/coronav.jpg" alt="">
+    </section>
+
+    <section class="newstext">
+        <h1>
+            PASS
+        </h1>
+        <h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    </section>
+</div>
+
+<div class="holder mySlides fade">
     <section class="newspic">
         <img src="images/coronav.jpg" alt="">
     </section>
@@ -40,38 +69,9 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
     </section>
 </div>
-
-<div class="holder">
-    <section class="newspic">
-        <img src="images/coronav.jpg" alt="">
-    </section>
-
-    <section class="newstext">
-        <h1>
-           CORONA PASS
-        </h1>
-        <h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    </section>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-
-<div class="holder">
-    <section class="newspic">
-        <img src="images/coronav.jpg" alt="">
-    </section>
-
-    <section class="newstext">
-        <h1>
-           CORONA PASS
-        </h1>
-        <h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    </section>
-</div>
-
-
-
-</section>
 
 
     <footer class="pcfooter">
