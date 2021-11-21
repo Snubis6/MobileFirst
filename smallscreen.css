@@ -16,16 +16,18 @@ article{
 .pcfooter{
     display: none;
 }
-iframe{
+/* iframe {
     display: none;
-}
+} */
 .articlecolumns img{
     display: none;
 }
 .pcnav{
     display: none;
 }
-
+#indexmap{
+    display: none;
+}
 
 /* /////////////////////Header//////////////////////////// */
 header{
@@ -275,6 +277,13 @@ body
 
 /* ////////////////////////End Of Main Page//////////////////// */
 
+/*////////////////////////////Music Page///////////////////////////////*/
+
+#musiclist{
+    text-align: center;
+    margin-top: 5%;
+    display: block;
+}
 
 
 
