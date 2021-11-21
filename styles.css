@@ -21,7 +21,7 @@ header{
     align-items: center;
     justify-content: center;
 }
-#moblogo{
+.moblogo{
     display: none;
 }
 #logo{
@@ -67,7 +67,7 @@ header{
   padding-top: 2vw;
   padding-bottom: 5vw;
   font-size: 6vw;
-  font-family: 'Road Rage', cursive;
+  font-family: 'Road Rage', 'cursive';
   text-shadow: rgb(130, 188, 238) 0 0 2vw;
 }
 .aboutus {
@@ -276,11 +276,9 @@ body
     margin-top: 8px;
     vertical-align: middle;
 }
-
-.slideshow-container {
+.slideshow-container{
     display: none;
 }
-
 
 /*////////////////////////////Music Page///////////////////////////////*/
 
@@ -455,6 +453,10 @@ text-align: center;
 
 /* MINIGAMES PAGE CSS PART*/
 
+#minigmobilenav{
+    display: none;
+}
+
 .games img {
     height: 20vw;
     border-radius: 15%;
@@ -505,9 +507,9 @@ text-decoration: none;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
     animation-delay: 0;
-  }
-  
-  @keyframes mymove {
+    
+}
+@keyframes mymove {
     0% {
         background-color: #fb0000
     }
@@ -545,17 +547,20 @@ text-decoration: none;
     100% {
         background-color: #d900ff
     }
-  }
+}
 
+
+
+    
+ 
 #fu{
     font-size: 18vw;
     animation-name: FadeIn;
-    
     animation-fill-mode: backwards;
     text-align: center;
     animation: FadeIn 1s infinite;
     animation-delay: 0;
-    }
+}
 
 
 
